@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import axios from "axios";
 
+const apiKey = process.env.REACT_APP_OPENCAGE_API_KEY;
+
 useEffect(() => {
   const getUserLocation = () => {
     if (navigator.geolocation) {
