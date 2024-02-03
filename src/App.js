@@ -2,7 +2,6 @@ import React from "react";
 import { GoogleLogin } from "@react-oauth/google";
 import { jwtDecode } from "jwt-decode";
 // import { useGoogleLogin } from '@react-oauth/google';
-import "./App.css";
 
 function App() {
   return (
